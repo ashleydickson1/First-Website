@@ -1,0 +1,53 @@
+
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 5px 20px 5px 20px;
+	margin: 20px 0px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+h1, h2 {
+	color:  red;
+	font-family: 'Koulen', cursive;
+	font-size: 3em;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+	border-left: 5px solid black;
+	border-top: 5px solid black;
+	width: 400px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	animation-duration: 3s;
+  	animation-name: slidein;
+  	animation-iteration-count: infinite;
+}
+
+img {
+	width: 450px;
+	height: 400px;
+	transition: all 1s;
+	tra
+}
+
+img:hover {
+	transform: scale(1.1);
+	transform: rotate(5deg);
+}
+
+span {
+	font-weight: bold;
+}
+
+li {
+	list-style: none;
+	display: block;
+}
